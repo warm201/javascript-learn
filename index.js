@@ -19,3 +19,4 @@ let o = {x:1 , y:2}
 delete o.x
 console.log( 'y' in o)
 console.log( typeof o)
+console.log(Math.cos(12))
