@@ -14,3 +14,8 @@ console.log('7' * '4')
 
 let point = {x:1 , y:1}
 console.log("toString" in point)
+
+let o = {x:1 , y:2}
+delete o.x
+console.log( 'y' in o)
+console.log( typeof o)
